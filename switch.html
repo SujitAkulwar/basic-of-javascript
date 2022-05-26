@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>hello world</div>
+    <p id="test"></p>
+
+    <script>
+        let x;
+        switch (new Date().getDay()){
+            case 26:
+            x = "Today is Thursday";
+            break;
+            case 1:
+            x = "Today is Sunday";
+            break;
+            default:
+            x = "Looking forward to the Weekend";
+        }
+        document.getElementById("test").innerHTML = x;
+
+    </script>
+    
+</body>
+</html>
