@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="test1"></p>
+    <p id="test2"></p>
+    <p id="test3"></p>
+    <p id="test4"></p>
+    <script>
+        let str = "abcdefghijklmnopqrstuvwxyz";
+        document.getElementById("test1").innerHTML = str;
+        document.getElementById("test2").innerHTML = str.slice(-12);
+        document.getElementById("test3").innerHTML = str.slice(12);
+        document.getElementById("test4").innerHTML = str.slice(0,12);
+    </script>
+</body>
+</html>
